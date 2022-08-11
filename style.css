@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Montserrat:wght@700&display=swap');
+body{
+ 
+margin: 0 auto;
+
+}
+
+.main-div{
+
+    background-image: url(./images/backcover.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 750px;
+    background-position-y: 0px;
+    background-size: 1200px 913px;
+    
+}
+
+nav>img{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.nav-items{
+   margin-left: 700px; 
+   margin-top: -70px;
+   display: flex;
+ 
+
+}
+
+.nav-item{
+    margin-left: 42px;
+    font-family: Montserrat;
+    font-size: 16px; 
+    color: #3E4794;
+   
+}
+
+
+.signin-btn{
+    margin-right: 200px; 
+   margin-top: -50px;
+   float: right;
+   border: none;
+   background-color: red; /* For browsers that do not support gradients */
+   background-image: linear-gradient(-90deg, #FF8ADC, #965CF2);
+   color: #fff;
+   padding: 6px 20px;
+   border-radius: 20px;
+}
+
+
+.intro-img1{
+    float: right;
+    margin-right: 100px;
+}
+
+.intro-img01{
+    
+ margin-left: 760px;
+ margin-top: -480px;
+ width: 1050px;
+ height: 800px;
+ 
+ 
+}
+
+.vector-img{
+    position: relative;
+    left: 840px;
+    top: 200px;
+}
+
+.vector-dot{
+    position: relative;
+    left: 800px;
+    top: 110px;
+}
+
+.left-section{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.left-section>h1{
+    position: relative;
+    top: 100px;
+
+    font-family: Montserrat;
+    font-size: 80px; 
+    color: #3E4794;
+    font-weight: 700;
+    
+
+}
+
+
+.left-section>h4{
+    position: relative;
+    top: 80px;
+    color: #758283;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+.learn-more-btn{
+    position: relative;
+    top: 150px;
+    background-image: linear-gradient(-90deg, #FF8ADC, #965CF2);
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    padding: 6px 30px;
+   border-radius: 26px;
+    
+}

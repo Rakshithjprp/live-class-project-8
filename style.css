@@ -1,119 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Montserrat:wght@700&display=swap');
-body{
- 
-margin: 0 auto;
+/* ---------import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,700&family=Open+Sans:wght@400;401&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,900;1,700&family=Open+Sans:wght@400;401&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,900;1,700&family=Open+Sans:wght@400;401&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
 }
 
-.main-div{
+body{
 
     background-image: url(./images/backcover.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 750px;
-    background-position-y: 0px;
-    background-size: 1200px 913px;
-    
-}
-
-nav>img{
-    margin-left: 250px;
-    margin-top: 50px;
-}
-
-.nav-items{
-   margin-left: 700px; 
-   margin-top: -70px;
-   display: flex;
- 
-
-}
-
-.nav-item{
-    margin-left: 42px;
-    font-family: Montserrat;
-    font-size: 16px; 
-    color: #3E4794;
    
-}
-
-
-.signin-btn{
-    margin-right: 200px; 
-   margin-top: -50px;
-   float: right;
-   border: none;
-   background-color: red; /* For browsers that do not support gradients */
-   background-image: linear-gradient(-90deg, #FF8ADC, #965CF2);
-   color: #fff;
-   padding: 6px 20px;
-   border-radius: 20px;
-}
-
-
-.intro-img1{
-    float: right;
-    margin-right: 100px;
-}
-
-.intro-img01{
     
- margin-left: 760px;
- margin-top: -480px;
- width: 1050px;
- height: 800px;
- 
- 
-}
-
-.vector-img{
-    position: relative;
-    left: 840px;
-    top: 200px;
-}
-
-.vector-dot{
-    position: relative;
-    left: 800px;
-    top: 110px;
-}
-
-.left-section{
-    margin-left: 250px;
-    margin-top: 50px;
-}
-
-.left-section>h1{
-    position: relative;
-    top: 100px;
-
-    font-family: Montserrat;
-    font-size: 80px; 
-    color: #3E4794;
-    font-weight: 700;
-    
-
 }
 
 
-.left-section>h4{
-    position: relative;
-    top: 80px;
-    color: #758283;
-    font-family: Montserrat;
+
+a {
+	text-decoration: none;
+}
+
+header {
+	
+	padding: 20px;
+	color: #000;
+}
+
+.logo{
+    margin-left: 0px;
+}
+
+header a {
+	color: #3E4794;
+    font-weight: 600;
+    font-family: montserrat;
     font-size: 18px;
-    font-weight: 200;
-
+    
+}
+#toggle {
+	display: none;
 }
 
-.learn-more-btn{
-    position: relative;
-    top: 150px;
+div .icon{
+    display: block !important;
+}
+
+#toggle:checked + .nav-links {
+	display: block;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .nav-links {
+	display: none;
+}
+
+header label {
+	cursor: pointer;
+	position: relative;
+}
+
+header .nav-links {
+	display: none;
+}
+
+
+.nav-links li a:hover{
+    color: #e34e0f;
+    font-weight: 900;
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.icon {
+	width: 30px;
+}
+.icon div {
+	height: 3px;
+	background: red;
+	margin: 3px 0;
+}
+
+
+
+
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	padding: 20px 0;
+}
+
+.nav-links li:nth-child(1) {
+	padding-top: 40px;
+}
+
+.nav-links1 {
+    list-style: none;
+}
+
+.nav-links1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nav-btn{
+ 
+   
     background-image: linear-gradient(-90deg, #FF8ADC, #965CF2);
     font-family: Hind Siliguri;
-    font-size: 26px;
+    font-size: 14px;
     font-weight: 600;
     color: #fff;
     border: none;
@@ -121,3 +133,90 @@ nav>img{
    border-radius: 26px;
     
 }
+
+
+/*  */
+
+
+
+
+
+/* .intro-img1{
+    margin-left: 760px;
+    margin-top: -480px;
+} */
+
+.imgs-div{
+    display: none;
+}
+
+.intro-img01{
+    
+    margin-left: 800px;
+    margin-top: 400px;
+    width: 1050px;
+    height: 800px;
+    
+    
+   }
+
+.vector-img{
+    position: relative;
+    left: 840px;
+    top: 20px;
+}
+
+.vector-dot{
+    position: relative;
+    left: 790px;
+    top: -55px;
+}
+
+
+
+
+.left-section{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.left-section>h1{
+  
+    
+  
+    font-family: Montserrat;
+    font-size: 80px; 
+    color: #3E4794;
+    font-weight: 700;
+    margin-top: 180px;
+    
+
+}
+
+
+.left-section>h4{
+   
+    margin-top: 80px;
+    color: #d07317;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.learn-more-btn{
+ 
+    margin-top: 80px;
+    background-image: linear-gradient(-90deg, #FF8ADC, #965CF2);
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+   border-radius: 32px;
+   margin-bottom: 30px;
+    
+}
+
+

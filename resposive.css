@@ -1,0 +1,75 @@
+
+/* responsive */
+
+@media only screen and (min-width:600px) {
+
+
+  body{
+
+    background-image: url(./images/backcover.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 750px;
+    background-position-y: 0px;
+    background-size: 1200px 913px;
+    
+}
+
+.logo{
+  margin-left: 230px;
+}
+   
+  div .icon{
+      display: none !important;
+  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+    /* Following enables visibility of nav-links irrespective of check status */
+#toggle:not(:checked) + .nav-links {
+      display: block;
+      }
+
+      .nav-links li:nth-child(1) {
+          padding-top: 0;
+      }
+
+      .nav-links1 {
+        margin-left: 300px;
+        margin-right: 200px;
+    }
+
+
+    /*  */
+
+    .left-section{
+      margin-left: 250px;
+      margin-top: 50px;
+  }
+
+
+  .intro-img01{
+    
+    margin-left: 780px;
+    margin-top: -750px;
+    width: 1050px;
+    height: 800px;
+    
+    
+   }
+
+   .imgs-div{
+    display: block;
+}
+
+}
+
+
